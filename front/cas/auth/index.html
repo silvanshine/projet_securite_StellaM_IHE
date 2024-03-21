@@ -227,7 +227,9 @@
                 <input type="checkbox" id="nosportails_menu" />
                 <ul class="animated slideInDown">
                   <li>
-                    <a href="https://studia.universita.corsica">Étudiants</a>
+                    <a href="https://studia.universita.corsica" class=""
+                      >Étudiants</a
+                    >
                   </li>
                   <li>
                     <a href="https://portail.universita.corsica">Personnels</a>
@@ -544,7 +546,7 @@
               </div>
 
               <div class="form-wrapper">
-                <form method="post" id="fm1" action="login">
+                <div id="fm1">
                   <div id="login-form-controls">
                     <!--<h3 th:unless="${existingSingleSignOnSessionAvailable}" class="text-center">
                         <i class="mdi mdi-security fas fa-shield-alt"></i>
@@ -703,11 +705,12 @@
                       name="submitBtn"
                       accesskey="l"
                       type="submit"
+                      id="submitBtn"
                     >
                       <span class="mdc-button__label">Se connecter</span>
                     </button>
                   </div>
-                </form>
+                </di>
 
                 <!--<hr th:if="${loginFormViewable and loginFormEnabled}" class="my-4"/>--><span>
                   <div id="pmlinks" class="my-2">
