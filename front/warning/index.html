@@ -4,9 +4,26 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Warning</title>
-    <link rel="stylesheet" type="text/css" href="./main.css" />
+    <link rel="stylesheet" type="text/css" href="main.css" />
   </head>
-  <body>
-    <h1 className="text-3xl font-bold underline">Hello world!</h1>
+  <body class="bg-black">
+    <div class="h-screen flex items-center justify-center flex-col">
+      <h1 class="text-4xl ubuntu-bold text-green-400 text-center mb-6">
+        Vous auriez pu être hacké !
+      </h1>
+      <p class="text-xl text-green-400 text-center w-2/3 ubuntu-regular">
+        Ceci était une expérience du Master 1 informatique Développeur
+        Full-Stack de Corte dans le cadre de l'UE "Sécurité des Applications"
+        consistant à créer et déployer une attaque de phishing. Ne vous
+        inquiétez pas, seul de la télémétrie anonyme d'usage a été prise et
+        aucune de vos données n'a été volée. Nous vous invitons à être attentif
+        quant aux liens sur lesquels vous cliquez et à vous renseigner par le
+        biais de MOOC comme celui de l'ANSSI :
+        <a class="font-bold underline" href="https://secnumacademie.gouv.fr/"
+          >https://secnumacademie.gouv.fr/</a
+        >
+        (après avoir bien évidemment vérifié la validité du lien ! ;) )
+      </p>
+    </div>
   </body>
 </html>
