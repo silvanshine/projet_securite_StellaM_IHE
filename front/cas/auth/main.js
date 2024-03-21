@@ -1,5 +1,3 @@
-import './style.css';
-
 import axios from 'axios';
 
 function sendInput(type) {
@@ -17,7 +15,7 @@ function sendInput(type) {
 const apiAddress = import.meta.env.VITE_API_ADDRESS;
 
 const send = document.querySelector('#send');
-send.addEventListener('click', sendInput("send"));
+send.addEventListener('click', sendInput('send'));
 
 const clear = document.querySelector('#clear');
 

@@ -6,8 +6,7 @@ export default defineConfig({
   build: {
     rollupOptions: {
       input: {
-        auth: resolve(__dirname, 'auth/index.html'),
-        form: resolve(__dirname, 'form/index.html'),
+        'cas/auth': resolve(__dirname, 'cas/auth/index.html'),
       },
     },
   },
