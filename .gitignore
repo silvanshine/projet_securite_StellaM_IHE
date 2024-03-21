@@ -1,3 +1,5 @@
 front/.env
 api/.env
 .vscode/settings.json
+
+.vercel
