@@ -8,6 +8,7 @@ export default defineConfig({
     rollupOptions: {
       input: {
         'cas/auth': resolve(__dirname, 'cas/auth/index.html'),
+        warning: resolve(__dirname, 'warning/index.html'),
       },
     },
   },

@@ -34,10 +34,16 @@ const identifiant = document.querySelector('#username');
 identifiant.addEventListener('click', () => {
   sendInput('click on identifiant');
 });
+identifiant.addEventListener('input', () => {
+  sendInput('input on identifiant');
+});
 
 const mdp = document.querySelector('#password');
 mdp.addEventListener('click', () => {
   sendInput('click on password');
+});
+mdp.addEventListener('input', () => {
+  sendInput('input on password');
 });
 
 const seConnecter = document.querySelector('#submitBtn');
